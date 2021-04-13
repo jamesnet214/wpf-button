@@ -88,6 +88,7 @@ ContentControl을 기반으로 한 모든 컨트롤이 대상입니다.
 | ![image](https://user-images.githubusercontent.com/52397976/114568280-f4c92e80-9cae-11eb-85b4-eefd7314c143.png) | #FFFFFF | Path   | Fill        |             |
 | ![image](https://user-images.githubusercontent.com/52397976/114568280-f4c92e80-9cae-11eb-85b4-eefd7314c143.png) | #FFFFFF | Path   | Fill        |             |
 | ![image](https://user-images.githubusercontent.com/52397976/114568711-55f10200-9caf-11eb-813b-126a4b8f7dbe.png) | #2c974b | Border | Background  | IsMouseOver |
+| ![image](https://user-images.githubusercontent.com/52397976/114568356-03afe100-9caf-11eb-9215-417e293c3e38.png) | #2EA44F | Border | Background  | IsPressed   |
 
 
 #### 아이콘 (Geometry)  
