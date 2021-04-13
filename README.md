@@ -89,8 +89,8 @@ ContentControl을 기반으로 한 모든 컨트롤이 대상입니다.
 
 ![image](https://user-images.githubusercontent.com/52397976/114562040-18897600-9ca9-11eb-80a6-737778d4cd51.png)
 
-> Project   
-> ![image](https://user-images.githubusercontent.com/52397976/114570426-c8aead00-9cb0-11eb-9dc0-bb2929849f46.png) [Download](https://github.com/devncore/template)
+> Solution   
+> > ![image](https://user-images.githubusercontent.com/52397976/114571224-76ba5700-9cb1-11eb-8b6e-066dbdb1f9bc.png) Controls/GitHubControls
 > 
 #### 기본 상태 (Default)
 
