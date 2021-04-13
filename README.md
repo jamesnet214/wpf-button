@@ -18,8 +18,6 @@ You can always share information with us and we are looking forward to it.
 WPF에서 가장 많이 사용되는 컨트롤 중에 하나인 Button에 관한 연구를 진행합니다.
 
 연구 항목
-
-- [x] 
 - [x] Button Class
 - [x] Template
 - [x] Geometry
@@ -91,8 +89,9 @@ ContentControl을 기반으로 한 모든 컨트롤이 대상입니다.
 
 ![image](https://user-images.githubusercontent.com/52397976/114562040-18897600-9ca9-11eb-80a6-737778d4cd51.png)
 
-> Repository   
-> :point_right: [Download](https://github.com/devncore/template)
+> Project   
+> ![image](https://user-images.githubusercontent.com/52397976/114570137-8c7b4c80-9cb0-11eb-9617-1198fa368c19.png) [Download](https://github.com/devncore/template)
+> 
 #### 기본 상태 (Default)
 
 > ![image](https://user-images.githubusercontent.com/52397976/114562527-8766cf00-9ca9-11eb-8a5a-50976c6025fa.png)
@@ -186,9 +185,5 @@ ContentControl을 기반으로 한 모든 컨트롤이 대상입니다.
  <br/>
 
 **WPF 실행 결과**
+
 ![image](https://user-images.githubusercontent.com/52397976/114562040-18897600-9ca9-11eb-80a6-737778d4cd51.png)
-
-
-:point_right: [GitHub 소스코드](https://github.com/devncore/template)
-
-TBD...
