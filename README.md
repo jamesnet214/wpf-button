@@ -76,7 +76,8 @@ ContentControl을 기반으로 한 모든 컨트롤이 대상입니다.
 ### 깃허브 버튼
 #### 기본 상태 (Default)
 
-> ![image|166x66, 50%](upload://5LHbefq9wUefCcL04svGM17HisV.png) 
+> ![image](https://user-images.githubusercontent.com/52397976/114562527-8766cf00-9ca9-11eb-8a5a-50976c6025fa.png)
+
 
 #### 색상 표 (HEX)
 > ![image|14x14](upload://oe9dafA6BrG1meDyQvTNTRZ2yar.png)     **BorderBrush** #2B9148
