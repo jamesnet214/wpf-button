@@ -68,13 +68,14 @@ ContentControl을 기반으로 한 모든 컨트롤이 대상입니다.
 - 카카오톡 버튼
 - 리그오브레전드 버튼
 - 
-![image](https://user-images.githubusercontent.com/52397976/114562040-18897600-9ca9-11eb-80a6-737778d4cd51.png)
 
-> 다운로드
-:point_right: [GitHub 소스코드](https://github.com/devncore/template)
 
 
 ## GitHub Button
+
+> Repository   
+> :point_right: [Download](https://github.com/devncore/template)
+![image](https://user-images.githubusercontent.com/52397976/114562040-18897600-9ca9-11eb-80a6-737778d4cd51.png)
 #### 기본 상태 (Default)
 
 > ![image](https://user-images.githubusercontent.com/52397976/114562527-8766cf00-9ca9-11eb-8a5a-50976c6025fa.png)
