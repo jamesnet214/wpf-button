@@ -89,9 +89,13 @@ ContentControl을 기반으로 한 모든 컨트롤이 대상입니다.
 > ![image](https://user-images.githubusercontent.com/52397976/114565531-4f14c000-9cac-11eb-9935-7990a0ab63df.png) **Background.IsMouseOver** #2c974b
 
 #### 아이콘 (Geometry)  
-```xaml
-<Geometry x:key="ICON">M8,8V6H10V8H8M7,2H17A2,2 0 0,1 19,4V19A2,2 0 0,1 17,21V22H15V21H9V22H7V21A2,2 0 0,1 5,19V4A2,2 0 0,1 7,2M7,4V9H17V4H7M8,12V15H10V12H8Z</Geometry>
 ```
+M8,8V6H10V8H8M7,2H17A2,2 0 0,1 19,4V19A2,2 0 0,1 17,21V22H15V21H9V22H7V21A2,2 0 0,1 5,19V4A2,2 0 0,1 7,2M7,4V9H17V4H7M8,12V15H10V12H8Z
+```
+```xaml
+<Geometry x:key="ICON">M8,8V6H10V...</Geometry>
+```
+
 
  
 #### 스타일 (ControlTemplate) 
