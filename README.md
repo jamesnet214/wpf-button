@@ -82,7 +82,7 @@ ContentControl을 기반으로 한 모든 컨트롤이 대상입니다.
 
 #### 색상 표 (HEX)
 ![image](https://user-images.githubusercontent.com/52397976/114567211-f6debd80-9cad-11eb-894e-5cc82f7f3570.png) `#2B9148` BorderBrush    
-![image](https://user-images.githubusercontent.com/52397976/114567211-f6debd80-9cad-11eb-894e-5cc82f7f3570.png) `#2EA44F` Background    
+![image](https://user-images.githubusercontent.com/52397976/114567407-2f7e9700-9cae-11eb-9742-838199ee60d1.png) `#2EA44F` Background    
 ![image](https://user-images.githubusercontent.com/52397976/114567211-f6debd80-9cad-11eb-894e-5cc82f7f3570.png) `#FFFFFF` Foreground    
 ![image](https://user-images.githubusercontent.com/52397976/114567211-f6debd80-9cad-11eb-894e-5cc82f7f3570.png) `#FFFFFF` Fill   
 ![image](https://user-images.githubusercontent.com/52397976/114567211-f6debd80-9cad-11eb-894e-5cc82f7f3570.png) `#2c974b` Background.IsMouseOver 
