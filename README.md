@@ -73,7 +73,7 @@ ContentControl을 기반으로 한 모든 컨트롤이 대상입니다.
 :point_right: [GitHub 소스코드](https://github.com/devncore/template)
 
 
-### 깃허브 버튼
+## 깃허브 버튼
 #### 기본 상태 (Default)
 
 > ![image](https://user-images.githubusercontent.com/52397976/114562527-8766cf00-9ca9-11eb-8a5a-50976c6025fa.png)
