@@ -3,14 +3,15 @@ WPF에서 가장 많이 사용되는 컨트롤 중에 하나인 Button에 관한
 
 연구 항목
 
-버튼(Button) 사례
-Button Class
-Template
-Geometry
-Trigger
-DataContext
-DependencyProperty
-목표: (속도는 더디지만) 설명과 소스코드를 상세하게 정리하고 WPF Button 관련 정보들을 잘 검증고 지속적으로 관리해 나가는 것에 목적을 두고 있습니다. :smile:
+- [x] 버튼(Button) 사례
+- [x] Button Class
+- [x] Template
+- [x] Geometry
+- [x] Trigger
+- [x] DataContext
+- [x] DependencyProperty
+
+> 목표: (속도는 더디지만) 설명과 소스코드를 상세하게 정리하고 WPF Button 관련 정보들을 잘 검증고 지속적으로 관리해 나가는 것에 목적을 두고 있습니다. :smile:
 
 
 
