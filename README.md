@@ -81,12 +81,12 @@ ContentControl을 기반으로 한 모든 컨트롤이 대상입니다.
 
 
 #### 색상 표 (HEX)
-> ![image](https://user-images.githubusercontent.com/52397976/114565088-e9c0cf00-9cab-11eb-89d1-6b6b80e67e41.png) **BorderBrush** #2B9148
-> ![image|14x14](upload://nWGzPu7UE3lZ4bzkn2bUqDqack4.png)  **Background** #2EA44F
-> ![image|14x14, 100%](upload://tj1BNiX9ML33T2zCJgUNVq9JKfr.png)    **Foreground** #FFFFFF
-> ![image|14x14, 100%](upload://tj1BNiX9ML33T2zCJgUNVq9JKfr.png)    **Fill** #FFFFFF
+> ![image](https://user-images.githubusercontent.com/52397976/114565088-e9c0cf00-9cab-11eb-89d1-6b6b80e67e41.png) **BorderBrush** #2B9148   
+> ![image](https://user-images.githubusercontent.com/52397976/114565275-14ab2300-9cac-11eb-80fa-4cb083d464a4.png) **Background** #2EA44F   
+> ![image](https://user-images.githubusercontent.com/52397976/114565421-35737880-9cac-11eb-8ef6-c17198a6e429.png) **Foreground** #FFFFFF   
+> ![image](https://user-images.githubusercontent.com/52397976/114565421-35737880-9cac-11eb-8ef6-c17198a6e429.png) **Fill** #FFFFFF
 
-> ![image|14x14](upload://oe9dafA6BrG1meDyQvTNTRZ2yar.png)  **Background.IsMouseOver** #2c974b
+> ![image](https://user-images.githubusercontent.com/52397976/114565531-4f14c000-9cac-11eb-9935-7990a0ab63df.png) **Background.IsMouseOver** #2c974b
 
 #### 아이콘 (Geometry)  
 ```xaml
