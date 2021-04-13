@@ -81,12 +81,11 @@ ContentControl을 기반으로 한 모든 컨트롤이 대상입니다.
 
 
 #### 색상 표 (HEX)
-![image](https://user-images.githubusercontent.com/52397976/114566582-643e1e80-9cad-11eb-898a-89306aa188a8.png)
-![image](https://user-images.githubusercontent.com/52397976/114566582-643e1e80-9cad-11eb-898a-89306aa188a8.png) `#2B9148` BorderBrush    
-![image](https://user-images.githubusercontent.com/52397976/114566582-643e1e80-9cad-11eb-898a-89306aa188a8.png) `#2EA44F` Background    
-![image](https://user-images.githubusercontent.com/52397976/114566582-643e1e80-9cad-11eb-898a-89306aa188a8.png) `#FFFFFF` Foreground    
-![image](https://user-images.githubusercontent.com/52397976/114566582-643e1e80-9cad-11eb-898a-89306aa188a8.png) `#FFFFFF` Fill   
-![image](https://user-images.githubusercontent.com/52397976/114566582-643e1e80-9cad-11eb-898a-89306aa188a8.png) `#2c974b` Background.IsMouseOver 
+![image](https://user-images.githubusercontent.com/52397976/114566778-8df74580-9cad-11eb-8972-6a92ef2c25d2.png) `#2B9148` BorderBrush    
+![image](https://user-images.githubusercontent.com/52397976/114566778-8df74580-9cad-11eb-8972-6a92ef2c25d2.png) `#2EA44F` Background    
+![image](https://user-images.githubusercontent.com/52397976/114566778-8df74580-9cad-11eb-8972-6a92ef2c25d2.png) `#FFFFFF` Foreground    
+![image](https://user-images.githubusercontent.com/52397976/114566778-8df74580-9cad-11eb-8972-6a92ef2c25d2.png) `#FFFFFF` Fill   
+![image](https://user-images.githubusercontent.com/52397976/114566778-8df74580-9cad-11eb-8972-6a92ef2c25d2.png) `#2c974b` Background.IsMouseOver 
 
 #### 아이콘 (Geometry)  
 ```
