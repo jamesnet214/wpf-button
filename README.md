@@ -91,7 +91,7 @@ ContentControl을 기반으로 한 모든 컨트롤이 대상입니다.
 
 > Solution   
 > &nbsp;└ Controls   
-> &nbsp;&nbsp;└ ![image](https://user-images.githubusercontent.com/52397976/114571224-76ba5700-9cb1-11eb-8b6e-066dbdb1f9bc.png) GitHubControls
+> &nbsp;&nbsp;&nbsp;└ ![image](https://user-images.githubusercontent.com/52397976/114571224-76ba5700-9cb1-11eb-8b6e-066dbdb1f9bc.png) GitHubControls
 >    
 #### 기본 상태 (Default)
 
