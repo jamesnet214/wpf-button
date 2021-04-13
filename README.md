@@ -3,13 +3,14 @@ WPF에서 가장 많이 사용되는 컨트롤 중에 하나인 Button에 관한
 
 연구 항목
 
-- [x] 버튼(Button) 사례
+- [x] 
 - [x] Button Class
 - [x] Template
 - [x] Geometry
 - [x] Trigger
 - [x] DataContext
 - [x] DependencyProperty
+- [x] [Example buttons](Example Buttons)
 
 > 목표: (속도는 더디지만) 설명과 소스코드를 상세하게 정리하고 WPF Button 관련 정보들을 잘 검증고 지속적으로 관리해 나가는 것에 목적을 두고 있습니다. :smile:
 
@@ -61,7 +62,7 @@ ContentControl을 기반으로 한 모든 컨트롤이 대상입니다.
 
 
 
-### 버튼 Template 예제
+### Example Buttons
 - [깃허브 버튼](#깃허브-버튼)
 - 닷넷데브 버튼
 - 카카오톡 버튼
