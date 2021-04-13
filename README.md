@@ -57,4 +57,112 @@ ContentControl을 기반으로 한 모든 컨트롤이 대상입니다.
 - Window
 - UserControl
 
+
+
+
+### 버튼 Template 예제
+- [깃허브 버튼](#깃허브-버튼)
+- 닷넷데브 버튼
+- 카카오톡 버튼
+- 리그오브레전드 버튼
+
+> 다운로드
+:point_right: [GitHub 소스코드](https://github.com/devncore/template)
+
+
+### 깃허브 버튼
+#### 기본 상태 (Default)
+
+> ![image|166x66, 50%](upload://5LHbefq9wUefCcL04svGM17HisV.png) 
+
+#### 색상 표 (HEX)
+> ![image|14x14](upload://oe9dafA6BrG1meDyQvTNTRZ2yar.png)     **BorderBrush** #2B9148
+> ![image|14x14](upload://nWGzPu7UE3lZ4bzkn2bUqDqack4.png)  **Background** #2EA44F
+> ![image|14x14, 100%](upload://tj1BNiX9ML33T2zCJgUNVq9JKfr.png)    **Foreground** #FFFFFF
+> ![image|14x14, 100%](upload://tj1BNiX9ML33T2zCJgUNVq9JKfr.png)    **Fill** #FFFFFF
+
+> ![image|14x14](upload://oe9dafA6BrG1meDyQvTNTRZ2yar.png)  **Background.IsMouseOver** #2c974b
+
+#### 아이콘 (Geometry)  
+```xaml
+<Geometry x:key="ICON">M8,8V6H10V8H8M7,2H17A2,2 0 0,1 19,4V19A2,2 0 0,1 17,21V22H15V21H9V22H7V21A2,2 0 0,1 5,19V4A2,2 0 0,1 7,2M7,4V9H17V4H7M8,12V15H10V12H8Z</Geometry>
+```
+
+ 
+#### 스타일 (ControlTemplate) 
+```xaml
+<!-- Geometry Path Icon (.SVG) -->
+<Geometry x:Key="ICON">M8,8V6H10V8H...</Geometry>
+
+<!-- GitHub Button Style -->
+<Style TargetType="{x:Type local:GitHubButton}">
+	<Setter Property="UseLayoutRounding" Value="True"/>
+	<Setter Property="SnapsToDevicePixels" Value="True"/>
+	<Setter Property="Foreground" Value="#FFFFFF"/>
+	<Setter Property="FontWeight" Value="Bold"/>
+	<Setter Property="Margin" Value="5"/>
+	<Setter Property="Template">
+        <Setter.Value>
+            <ControlTemplate TargetType="{x:Type local:GitHubButton}">
+				<ControlTemplate.Resources>
+					<Style TargetType="{x:Type Border}" x:Key="IN.BORDER">
+						<Setter Property="BorderBrush" Value="#2B9148"/>
+						<Setter Property="BorderThickness" Value="1 1 1 1"/>
+						<Setter Property="Background" Value="#2B9148"/>
+						<Setter Property="CornerRadius" Value="5"/>
+					</Style>
+					<Style TargetType="{x:Type StackPanel}" x:Key="IN.PANEL">
+						<Setter Property="VerticalAlignment" Value="Center"/>
+						<Setter Property="Orientation" Value="Horizontal"/>
+					</Style>
+					<Style TargetType="{x:Type Viewbox}" x:Key="IN.VBOX">
+						<Setter Property="VerticalAlignment" Value="Center"/>
+						<Setter Property="Margin" Value="12 0 4 0"/>
+						<Setter Property="Width" Value="16"/>
+						<Setter Property="Height" Value="16"/>
+					</Style>
+					<Style TargetType="{x:Type Path}" x:Key="IN.PATH">
+						<Setter Property="Data" Value="{StaticResource ICON}"/>
+						<Setter Property="Width" Value="24"/>
+						<Setter Property="Height" Value="24"/>
+						<Setter Property="Fill" Value="#FFFFFF"/>
+					</Style>
+					<Style TargetType="{x:Type ContentPresenter}" x:Key="IN">
+						<Setter Property="VerticalAlignment" Value="Center"/>
+						<Setter Property="Margin" Value="0 6 12 6"/>
+					</Style>
+				</ControlTemplate.Resources>
+                <Border Style="{StaticResource IN.BORDER}">
+					<StackPanel Style="{StaticResource IN.PANEL}">
+						<Viewbox Style="{StaticResource IN.VBOX}">
+							<Path Style="{StaticResource IN.PATH}"/>
+						</Viewbox>
+						<ContentPresenter Style="{StaticResource IN}"/>
+					</StackPanel>
+				</Border>
+            </ControlTemplate>
+        </Setter.Value>
+    </Setter>
+</Style>
+```
+
+
+**ControlTemplate** 영역 하위  컨트롤 스타일
+| x:Key | TargetType | Remark |
+| :------- |  :-------------- | :--------|
+| **IN.BORDER** | Border | CornerRadius="5 5 5 5"|
+| **IN.PANEL** | StackPanel | Orientation="Horizontal" |
+| **IN.VBOX** | ViewBox | W16 x H16 |
+| **IN.PATH** | Path | W24 x H24 (실제 .svg size) |
+| **IN** | ContentPresenter | ContentSource="Content" |
+ <br/>
+
+**WPF 실행 결과**
+TBD...
+
+![image|298x134](upload://u9AscTB7pjMgK3ZJDgsrdCYbcLN.png) 
+
+
+:point_right: [GitHub 소스코드](https://github.com/devncore/template)
+
 TBD...
