@@ -30,7 +30,7 @@ Button 클래스의 가장 큰 특징은  ContentTemplate을 편집할 수 있�
 
 **기본 스타일 형태** 
 
-```
+```xaml
 <Style TargetType="{x:Type Button}">
     <Setter>
         <Setter.Value>
