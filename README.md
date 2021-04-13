@@ -81,14 +81,13 @@ ContentControl을 기반으로 한 모든 컨트롤이 대상입니다.
 
 
 #### 색상 표 (HEX)
-| Color | Hex | Property |
-| ----- | --- | -------- |
-| ![image](https://user-images.githubusercontent.com/52397976/114567211-f6debd80-9cad-11eb-894e-5cc82f7f3570.png) | #2EA44F | BorderBrush |
--  `#2B9148` BorderBrush    
-- ![image](https://user-images.githubusercontent.com/52397976/114567407-2f7e9700-9cae-11eb-9742-838199ee60d1.png) `#2EA44F` Background    
-- ![image](https://user-images.githubusercontent.com/52397976/114567211-f6debd80-9cad-11eb-894e-5cc82f7f3570.png) `#FFFFFF` Foreground    
-- ![image](https://user-images.githubusercontent.com/52397976/114567211-f6debd80-9cad-11eb-894e-5cc82f7f3570.png) `#FFFFFF` Fill   
-- ![image](https://user-images.githubusercontent.com/52397976/114567211-f6debd80-9cad-11eb-894e-5cc82f7f3570.png) `#2c974b` Background.IsMouseOver 
+| Color | Hex | Control  | Property | Trigger |
+| :---: | --- | -------- | -------- | ------- |
+| ![image](https://user-images.githubusercontent.com/52397976/114568404-0dd1df80-9caf-11eb-8a92-f871843069fa.png) | #2B9148 | Border | BorderBrush |             |
+| ![image](https://user-images.githubusercontent.com/52397976/114568356-03afe100-9caf-11eb-9215-417e293c3e38.png) | #2EA44F | Border | Background  |             |
+| ![image](https://user-images.githubusercontent.com/52397976/114568280-f4c92e80-9cae-11eb-85b4-eefd7314c143.png) | #FFFFFF | Path   | Fill        |             |
+| ![image](https://user-images.githubusercontent.com/52397976/114568280-f4c92e80-9cae-11eb-85b4-eefd7314c143.png) | #FFFFFF | Path   | Fill        |             |
+| ![image](https://user-images.githubusercontent.com/52397976/114568711-55f10200-9caf-11eb-813b-126a4b8f7dbe.png) | #2c974b | Border | Background  | IsMouseOver |
 
 
 #### 아이콘 (Geometry)  
@@ -161,7 +160,7 @@ M8,8V6H10V8H8M7,2H17A2,2 0 0,1 19,4V19A2,2 0 0,1 17,21V22H15V21H9V22H7V21A2,2 0 
 
 **ControlTemplate** 영역 하위  컨트롤 스타일
 | x:Key | TargetType | Remark |
-| :------- |  :-------------- | :--------|
+| :---: | :-------------- | :--------|
 | **IN.BORDER** | Border | CornerRadius="5 5 5 5"|
 | **IN.PANEL** | StackPanel | Orientation="Horizontal" |
 | **IN.VBOX** | ViewBox | W16 x H16 |
