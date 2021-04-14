@@ -63,7 +63,7 @@ Button 클래스의 가장 큰 특징은  ContentTemplate을 편집할 수 있�
    </Setter>
 </Style>
 ```
-일반적으로 **ControlTemplate**을 만들 때 속성 값을 직접 사용하게 됩니다. 이 영역 자체가 Base 기반이기 때문에 한단계 더 정리해야 할 필요성을 느끼지 못할 수도 있습니다. 하지만 **분명한** 것은 Template 영역에서 Style 규칙을 더 강력하고 철저하게 가져가지 않는다면 금방 Xaml 확장, 관리의 한계에 봉착할 것입니다. 이 규칙에 대한 설명은 [여기](https://github.com/devncore/wpf-code-rules)에서 좀 더 자세히 학습할 수 있습니다.
+일반적으로 **ControlTemplate**을 만들 때 속성 값을 직접 사용하게 됩니다. 이 영역 자체가 Base 기반이기 때문에 한 단계 더 정리해야 할 필요성을 느끼지 못할 수도 있습니다. 하지만 **분명한** 것은 Template 영역에서 Style 규칙을 더 강력하고 철저하게 가져가지 않는다면 Xaml 확장, 관리의 한계에 금세 봉착하게 될 것입니다. Style 규칙에 대한 설명은 **[여기]**(https://github.com/devncore/wpf-code-rules)에서 자세히 학습할 수 있습니다.
 
 **Button과 거의(99%) 동일한** ~~DNA~~
 ContentControl을 기반으로 한 모든 컨트롤이 대상입니다.
@@ -73,8 +73,7 @@ ContentControl을 기반으로 한 모든 컨트롤이 대상입니다.
 - Window
 - UserControl
 
-
-
+***
 
 # Example Buttons
 - [GitHub Button](#github-button)
