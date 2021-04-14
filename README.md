@@ -59,8 +59,10 @@ Button 클래스의 가장 큰 특징은 ContentTemplate을 편집할 수 있다
    </Setter>
 </Style>
 ```
+
 #### _`ControlTemplate.Resources`를 사용하는이유?_
 &nbsp; 👉 일반적으로 **ControlTemplate** 영역 자체가 Base 기반이기 때문에 한 단계 더 정리해야 할 필요성을 느끼지 못할 수도 있습니다. 하지만 **분명한** 것은 Template 영역에서 Style 규칙을 더욱 강력하고 철저하게 가져가지 않는다면 **Xaml 확장 및 리소스 관리의 한계**에 금세 봉착하게 될 것입니다. Style 규칙에 대한 보다 자세한 설명은 <ins>**[여기](https://github.com/devncore/wpf-code-rules)**</ins> 에서 확인할 수 있습니다.
+    
 ***
 
 ## Example Buttons
