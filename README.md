@@ -15,7 +15,7 @@ You can always share information with us and we are looking forward to it.
 
 ***
 
-WPF에서 가장 많이 사용되는 컨트롤 중에 하나인 Button에 관한 연구를 진행합니다.
+WPF에서 가장 많이 사용되는 컨트롤 중 하나인 Button에 관한 연구를 진행합니다.
 
 연구 항목
 - [x] Button Class
@@ -26,7 +26,7 @@ WPF에서 가장 많이 사용되는 컨트롤 중에 하나인 Button에 관한
 - [x] DependencyProperty
 - [x] [Example Buttons](#example-buttons)
 
-> 목표: (속도는 더디지만) 설명과 소스코드를 상세하게 정리하고 WPF Button 관련 정보들을 잘 검증고 지속적으로 관리해 나가는 것에 목적을 두고 있습니다. :smile:
+> 목표: (속도는 더디지만) 설명과 소스코드를 상세하게 정리함으로써 **WPF Button 관련 정보들을 잘 검증하고 지속적으로 관리해 나가는 것**을 목표로 하고 있습니다. :smile:
 
 
 
