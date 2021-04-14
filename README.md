@@ -162,7 +162,7 @@ ContentControl을 기반으로 한 모든 컨트롤이 대상입니다.
 
 #### ControlTemplate 영역 하위 컨트롤 스타일
 | x:Key | TargetType | Remark |
-| :---: | :-------------- | :--------|
+| :---: | :-------------: | :--------|
 | **IN.BORDER** | Border | CornerRadius="5 5 5 5"|
 | **IN.PANEL** | StackPanel | Orientation="Horizontal" |
 | **IN.VBOX** | ViewBox | W16 x H16 |
