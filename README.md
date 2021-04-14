@@ -15,9 +15,9 @@ You can always share information with us and we are looking forward to it.
 
 ***
 
-WPF에서 가장 많이 사용되는 컨트롤 중 하나인 Button에 관한 연구를 진행합니다.
+### WPF에서 가장 많이 사용되는 컨트롤 중 하나인 Button에 관한 연구를 진행합니다.
 
-연구 항목
+📖 **연구 항목**
 - [x] Button Class
 - [x] Template
 - [x] Geometry
@@ -39,9 +39,9 @@ WPF에서 가장 많이 사용되는 컨트롤 중 하나인 Button에 관한 �
 | :----------- | :---- | :------------------- | :--------------- |
 | Button | ContentControl | System.Windows.Controls | PresentationFramework.dll |
 
-WPF **버튼**은 Content 속성을 포함하는 ContentControl 기반의 클래스입니다. ContentControl을 기반으로 하는 클래스는 Button 말고도 Window, UserControl, CheckBox, ToggleButton, Expander 등이 있습니다.
+WPF **버튼**은 Content 속성을 포함하는 ContentControl 기반의 클래스입니다. ContentControl을 기반으로 하는 클래스는 Button 이외에도 Window, UserControl, CheckBox, ToggleButton, Expander 등이 있습니다.
 
-Button 클래스의 가장 큰 특징은  ContentTemplate을 편집할 수 있다는 점과 Click 이벤트를 포함한 Button 동작에 관련된 Event를 사용할 수 있다는 점입니다. 또한 다른 UI 클래스들과 달리 Command라는 ICommand 타입의 속성(DependencyProperty)를 통해 Click 이벤트를 Binding을 통해 연결할 수도 있습니다. 이는 Button 내부적으로 버튼 클릭 시 Command를 ?.Invoke() 하도록 설계되어 있기 때문입니다.
+Button 클래스의 가장 큰 특징은  ContentTemplate을 편집할 수 있다는 점과 Click 이벤트를 포함한 Button 동작에 관련된 Event를 사용할 수 있다는 점입니다. 또한 다른 UI 클래스들과 달리 Command라는 ICommand 타입의 속성(DependencyProperty)을 통해 Click 이벤트를 Binding으로 연결할 수도 있습니다. 이는 Button 내부적으로 버튼 클릭 시 Command를 ?.Invoke() 하도록 설계되어 있기 때문입니다.
 
 **기본 스타일 형태** 
 
